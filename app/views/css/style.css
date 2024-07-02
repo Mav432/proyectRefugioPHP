@@ -1,0 +1,85 @@
+/*<<<<<<<<<---Logo--->>>>>>>>*/
+
+.perrito{
+    width: 140px;
+}
+
+
+/*<<<<<<<<<<-----Estilos para las imgenes Slider---->>>>>>*/
+
+.slider-frame{
+    width: 1280px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+.slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 10s infinite alternate ease-in-out;
+}
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+.slider-frame img{
+    width: 100%;
+}
+.slider-frame li img{
+    width: 100%;
+    height: auto;
+}
+@keyframes slide{
+    0% {margin-left: 0}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100% ;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200% ;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+/*<<<<<<<<<-------Estilo para el navbar------>>>>>>*/
+.navbar {
+    background-color: #FF6F61; /* Rosa Coral */
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+/* Estilos de los Enlaces del Navbar */
+.nav-link {
+    color: #F5F5F5; /* Blanco Humo */
+    margin-right: 15px;
+}
+
+.navbar-item{
+    background-size: 50px;
+}
+.nav-link:hover {
+    color: #FFD700; /* Dorado */
+}
+
+/* Estilos de los Botones */
+.btn-primary {
+    background-color: #6B4226; /* Marrón Terroso */
+    border-color: #6B4226;
+    margin-right: 15px;
+}
+
+.btn-primary:hover {
+    background-color: #FFD700; /* Dorado */
+    border-color: #FFD700;
+}
+
+/* Estilos del Contenedor */
+.container {
+    margin-top: 20px;
+}
