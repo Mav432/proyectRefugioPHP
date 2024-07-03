@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
     <div class="container-fluid">
         <a class="navbar-brand" href="home.php">
-            <img src="<?php echo APP_URL; ?>app/views/img/log.jpg" class="log" alt="Pet Shelter" width="112" height="28">
+            <img src="<?php echo APP_URL; ?>app/views/img/log.jpg" class="log" alt="Pet Shelter">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExampleTransparentExample" aria-controls="navbarExampleTransparentExample" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
