@@ -1,0 +1,396 @@
+
+body {
+  background-color: #e4dcd3;
+  margin-top: 130px;
+}
+.me-auto {
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+}
+
+.me-auto:hover {
+  color: white;
+}
+.navbar {
+  background-color: #a17300;
+  margin: 8px;
+  border-radius: 20px;
+  display: flex;
+  font-size: 5px;
+}
+
+.logo {
+  border: 20px;
+  border-radius: 50%;
+  width: 80px;
+}
+.titulo {
+  display: flex;
+}
+
+.login-button {
+  color: white;
+  padding: 8px 20px;
+  transition: 0.3s background-color;
+}
+
+.buscar {
+  background-color: #a8bbf0;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 8px 20px;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: 0.3s background-color;
+}
+
+.buscar:hover {
+  background-color: #8ea7ec;
+}
+
+.carrito {
+  width: 50px;
+}
+.navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+  background-color: #f0dfa8;
+}
+
+.offcanvas-header,
+.offcanvs-title,
+.btn-close {
+  color: white;
+}
+
+.navbar-toggler:focus,
+btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  position: relative;
+}
+
+.offcanvas {
+  background-color: rgba(161, 115, 0, 0.7);
+  backdrop-filter: blur(0.4rem);
+}
+.nav-link:hover {
+  color: #e0850f;
+}
+
+.nav-link:hover,
+nav-link.active {
+  color: #cbe4ee;
+}
+
+@media (min-width: 991px) {
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #cbe4ee;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
+
+  .nav-link:hover::before {
+    width: 100%;
+    visibility: visible;
+  }
+}
+ul li {
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+
+/*Titulos general*/
+.titulo_general {
+  font-size: 50px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 95px;
+  background-color: #fefeff;
+  border-radius: 10px;
+}
+.slogan {
+  margin-top: 75px;
+  font-size: 60px;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+.pds {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img_s1 {
+  height: 300px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+
+.agregar {
+  border-radius: 5px;
+  border: 0px;
+  background-color: #2b88e4;
+  height: 40px;
+  width: 70px;
+  font-weight: 700;
+  color: white;
+}
+.agregar:hover {
+  background-color: #4fa0f1;
+}
+
+.pds_1 {
+  padding-left: 10px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+/*Estilos para el footer*/
+.footer {
+  background-color: rgb(0, 0, 0);
+  font-size: 70px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5%;
+  padding: 40px;
+  color: #cbe4ee;
+}
+.Text_footer_1 {
+  font-size: 14px;
+  color: aliceblue;
+}
+.footer_t {
+  color: #cbe4ee;
+  font-size: 30px;
+  font-weight: 800;
+}
+.Text_footer_1 {
+  font-size: 14px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 180%;
+  max-width: 500px;
+  justify-content: center;
+  margin-top: 130px;
+  display: flex;
+}
+
+.about{
+  margin-top: 130px;
+}
+
+.fa-solid{
+  color: #12487e;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+/*Catalogos*/
+.titulo_productos {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-item p {
+    margin-top: 10px;
+}
+
+.agregar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.agregar:hover {
+    background-color: #0056b3;
+}
+/*para embre del usuario*/
+.d-flex.align-items-center.ms-auto {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navbar-user .nav-link {
+    margin-bottom: 0; /* Elimina cualquier margen inferior */
+    margin-right: 10px; /* Espacio entre el nombre de usuario y el carrito */
+}
+/*imagen logo*/
+.brand-logo {
+    height: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+    width: 400px; /* Mantiene la proporción de la imagen */
+}
+
+.d-flex.align-items-center.ms-auto {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navbar-user .nav-link {
+    margin-bottom: 0; /* Elimina cualquier margen inferior */
+    margin-right: 10px; /* Espacio entre el nombre de usuario y el carrito */
+}
+/*Estirar el boto*/
+.agregar {
+    width: 100%; /* Hace que el botón sea tan ancho como su contenedor */
+    padding: 10px; /* Aumenta el relleno del botón para hacerlo más grande */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    text-align: center; /* Alinea el texto en el centro */
+}
+
+.agregar:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el ratón */
+}
+/*para los option select*/
+.form-select {
+    width: 100%; /* Hace que los select sean tan anchos como su contenedor */
+    padding: 10px; /* Aumenta el relleno del select para hacerlo más grande */
+    border: 1px solid #ced4da; /* Borde del select */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: #fff; /* Fondo blanco */
+    font-size: 1rem; /* Tamaño de la fuente */
+    color: #495057; /* Color del texto */
+    height: auto; /* Ajusta la altura automáticamente */
+}
+
+.input-group.mb-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-group.mb-3 label {
+    flex: 1; /* Permite que la etiqueta ocupe todo el espacio disponible */
+    margin-right: 10px; /* Añade un margen a la derecha de la etiqueta */
+}
+
+.input-group.mb-3 select {
+    flex: 2; /* Permite que el select ocupe más espacio */
+}
+
+/*Estilos para las imgenes ------------------------------------------------>*/
+.slider-frame{
+    width: 1280px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+.slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 10s infinite alternate ease-in-out;
+}
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+.slider-frame img{
+    width: 100%;
+}
+.slider-frame li img{
+    width: 100%;
+    height: auto;
+}
+@keyframes slide{
+    0% {margin-left: 0}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100% ;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200% ;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+.contten{
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+  min-width: 300px; 
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #495057;
+}
+
+.conttendiv{
+  background-color: #ffffffb4;
+  padding: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 20px;
+}
+
+.conttent{
+  background-color: #ffffffb4;
+  
+  padding: 20px;
+  border-radius: 20px;
+}

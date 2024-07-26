@@ -2,9 +2,6 @@
 
 <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
-        <li class="nav-item">
-          <img src="<?php echo APP_URL; ?>app/views/img/log.jpg" alt="carrito" class="logo"/>
-        </li>
         <a class="navbar-brand me-auto" href="<?php echo APP_URL; ?>dashboard/">
           <p> Refugio mascotas </p>
         </a>
@@ -34,24 +31,17 @@
                 <a class="nav-link mx-lg-2" href="<?php echo APP_URL."CerrarSesion/"; ?>" id="btn_exit" >SALIR</a>
               </li>
               -->
-              
               <li class="nav-item">
-                <a class="nav-link mx-lg-2" href="<?php echo APP_URL; ?>dashboard/">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-lg-2" href="<?php echo APP_URL; ?>mascotas/">Mascotas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-lg-2" href="<?php echo APP_URL; ?>about/">Quienes Somos</a>
+                <a class="nav-link mx-lg-2" href="<?php echo APP_URL; ?>admindashboard/">Inicio</a>
               </li>
                <li class="nav-item">
-                <a class="nav-link mx-lg-2" href="<?php echo APP_URL; ?>login/">Login</a>
+                <a class="nav-link mx-lg-2" href="<?php echo APP_URL; ?>crudmascotas/">CRUDMascotas</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="<?php echo APP_URL; ?>crudslider/">CRUDslider</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-lg-2" href="<?php echo APP_URL; ?>register/">Registrate</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-lg-2" href="<?php echo APP_URL; ?>donate/">Dona</a>
+                <a class="nav-link mx-lg-2" href="<?php echo APP_URL; ?>cruddonate/">CRUDdonacion</a>
               </li>
              
             </ul>
